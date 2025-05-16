@@ -1,46 +1,45 @@
-# Nitron Browser
+# Leetcode Solutions
 
--Nitron Browser is a simple, tabbed web browser built with Python, using PyQt5 and QtWebEngine. It features navigation controls, tab management, bookmarking, and a dark mode toggle. 
--The browser features navigation controls (back, forward, reload, home), tab management, bookmarking, and a toggle for dark mode. 
--Bookmarks are stored in memory for the session, and the interface is styled for both light and dark themes.
+- A collection of personal solutions to various Leetcode problems, focused on clarity, efficiency, and readability.  
+- Solutions are organized by problem number and name, each typically including the problem statement, the implemented code, and explanatory comments when needed.  
+- This repository is designed to track progress, share knowledge, and improve problem-solving skills.
 
 ## Features
 
-- Multiple tabs with easy switching and closing
-- Navigation toolbar: Back, Forward, Reload, Home, New Tab
-- Bookmarking: Add and view bookmarks (session-based)
-- Dark mode and light mode toggle
-- Styled interface for a modern look
+- Organized by problem number and name
+- Each solution includes:
+  - Problem statement (inline or separate)
+  - Code solution
+  - Comments or explanations where applicable
+- Written with clarity and learning in mind
 
-## Requirements
+## Languages Used
 
-- Python 3.x
-- PyQt5
-- PyQtWebEngine
-
-Install dependencies with:
-
-```sh
-pip install PyQt5 PyQtWebEngine
-```
+- Python  
+- Java  
+- C++  
+- JavaScript  
 
 ## Usage
 
-Run the browser with:
+To use this repository:
 
-```sh
-python Browserpy.py
-```
+1. Browse for the problem of interest.  
+2. Read through the code and any included explanations.  
+3. Run the code in your local development environment or any online compiler/interpreter of your choice.
 
 ## File Overview
 
-- [`Browserpy.py`](r:/Browserpy.py): Main application file containing the browser implementation.
+- Each file or folder typically includes:
+  - Problem statement (as a comment or `.md` file)
+  - Code implementation
+  - Inline comments or explanation file (if needed)
 
-## Notes
+## Contributions
 
-- Bookmarks are not persistent and will be lost when the browser is closed.
-- The default homepage is set to [Brave Search](https://search.brave.com).
+Feel free to contribute by opening issues or pull requests to report bugs, suggest optimizations, or share alternative approaches.
 
 ## License
 
-This project is provided as-is for educational purposes.
+This project is for educational use. If you share or use these solutions, please credit the original author.
+"""
